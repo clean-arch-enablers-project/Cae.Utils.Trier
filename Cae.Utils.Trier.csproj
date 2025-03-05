@@ -7,17 +7,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Cae.Utils.Trier</PackageId>
     <Title>Cae.Utils.Trier</Title>
-    <PackageIcon>164791608.png</PackageIcon>
+    <PackageIcon></PackageIcon>
     <RepositoryUrl>https://github.com/clean-arch-enablers-project/Cae.Utils.Trier</RepositoryUrl>
     <Company>Gabriel Araújo Lima, José Lúcio Junior</Company>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\..\Downloads\164791608.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Cae.Utils.MappedExceptions" Version="1.0.0" />
