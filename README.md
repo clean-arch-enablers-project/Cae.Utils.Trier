@@ -1,4 +1,4 @@
-﻿<h1> ⏳ Cae.Utils.MappedExceptions </h1>
+﻿<h1> ⏳ Cae.Utils.Trier </h1>
 C# Microsoft.NET edition
 
 <br>
