@@ -10,6 +10,18 @@ namespace Cae.Utils.Trier.AutoRetry
     {
         public delegate void HandleFailure(FailureStatus failureStatus);
 
+        private readonly HandleFailure _handler;
+
+        public OnExhaustion(HandleFailure handler)
+        {
+            _handler = handler;
+        }
+
+        public void Handle(FailureStatus failureStatus)
+        {
+            _handler?.Invoke(failureStatus);
+        }
+
         public class FailureStatus
         {
             public Exception Exception { get; }
